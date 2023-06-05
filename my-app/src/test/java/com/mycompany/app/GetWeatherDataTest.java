@@ -132,15 +132,20 @@ public class GetWeatherDataTest {
 
         logger.info("test passed");
     }
-    /*@Test // getting the status code
+    @Test // getting the status code
             public void testGetStatusCode() {
         String url = "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=b0d80a82ca4a159fffb4e272a0833b5a";
-        int statusCode = given().
+        Response response = given().
                 when().
                 get(url).
                 then().
-                getStatusCode();
-        logger.info("status code is" + statusCode);
-    } */
+                extract().response();
+        int statusCode= response.getStatusCode();
+        String contentType= response.getContentType();
+        float path= response.path("coord.lon");
+        logger.info("status code is  " + statusCode);
+        logger.info(( " content Type =" + contentType));
+        logger.info(path );
+    }
 
 }

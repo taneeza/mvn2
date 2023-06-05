@@ -1,0 +1,3 @@
+2023-06-05 14:18:31.613 [main] INFO  com.mycompany.app.ReqresApiTest - status code is  200
+2023-06-05 14:18:31.613 [main] INFO  com.mycompany.app.ReqresApiTest -  content Type =application/json; charset=utf-8
+2023-06-05 14:18:31.613 [main] INFO  com.mycompany.app.ReqresApiTest - 12

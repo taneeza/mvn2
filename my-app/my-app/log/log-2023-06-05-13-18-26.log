@@ -1,0 +1,2 @@
+2023-06-05 13:18:26.446 [main] INFO  com.mycompany.app.GetWeatherDataTest - status code is  200
+2023-06-05 13:18:26.446 [main] INFO  com.mycompany.app.GetWeatherDataTest -  content Type =application/json; charset=utf-8

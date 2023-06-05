@@ -28,4 +28,10 @@ public class GetTokenTest {
         Assert.assertEquals(200, response.statusCode());
     }
 
+    /*private Integer postRequest1() {
+        String myName = new String("jony");
+        Integer i = new Integer("1");
+        return i;
+    } */
+
 }
